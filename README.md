@@ -4,3 +4,5 @@ With the popularity of consumer online platforms for shopping and content such a
 Exploratory data analysis was done by removing duplicate rows, which were inspected by comparing rows and progressively narrowing down to specific columns. The movie description column was found to be most suitable for identifying duplicate content. Text was pre-processed by removing white spaces, converting all text to lower cases and combining columns.
 
 Cosine similarity was used to build a model that would filter out content similar to a selected movie, based on a criteria in one of the features. For instance, if a movie selected was listed in ‘international’ category, the model would use this to filter out similar content and return a resulting dataframe as the output. This was tested by checking if all the recommended movies were also listed in ‘international’. The lesson learned from this project is how powerful cosine similarity is in getting what could be very close to a perfect match to a user’s needs from a huge pool of choices. 
+
+NB: Some columns values were altered with to make the project a bit more challenging. 
